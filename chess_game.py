@@ -338,5 +338,5 @@ def move(position, previous_position, new_position):
         else:
             return my_old_board, False
     except Exception as error:
-        print(error)
+        # print(error)
         return my_old_board, False
